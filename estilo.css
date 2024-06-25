@@ -1,0 +1,290 @@
+/*Estutura do site*/
+
+body, html{
+	height: 100%;
+	background: #f3f3f3;
+	font-family: Helvetica, Arial, sans-serif;
+}
+/*--------------------------------*/
+
+
+
+/*Cabeçalho*/
+header .navbar-nav a{
+	color: white;
+}
+
+header .navbar-nav a:hover{
+	color: #9bf0e1;
+	border-bottom: 1px solid white;
+}
+
+.logo-texto{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin: 15px;
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+/*--------------------------------*/
+
+
+
+/*HOME*/
+.t-home{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.p-home{
+	font-size: 1.5em;
+}
+
+.img-home{
+	width: 400px;
+	margin-left: 120px;
+	margin-top: 30px;
+}
+/*--------------------------------*/
+
+
+
+/*LICENÇAS*/
+td{
+	font-weight: bold;
+}
+
+.background-licenca{
+	background: white;
+	margin: 15px 0 15px 0;
+	padding: 1px 15px 2px 15px ;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border: 1px solid black;
+}
+
+.background-licenca h4{
+	font-weight: bold;
+}
+/*--------------------------------*/
+
+
+/*EXPERIÊNCIAS*/
+.background-exp{
+	background: white;
+	margin: 15px 0 15px 0;
+	padding: 1px 15px 2px 15px ;
+	border-radius: 700px;
+	-webkit-border-radius: 700px;
+	-moz-border-radius: 700px;
+	border: 1px solid black;
+}
+/*--------------------------------*/
+
+
+/*CURSOS*/
+.alinhamento{
+	text-align: center;
+}
+
+.alinhamento h4{
+	font-weight: bold;
+}
+
+.btn-custom{
+	margin-left: 70px;
+}
+
+.btn-custom a{
+	text-decoration: none;
+	color: white;
+}
+/*--------------------------------*/
+
+
+
+/*MECATRÔNICA*/
+.mec h4, h6{
+	font-weight: bold;
+	margin: 0;
+}
+
+.mec h5{
+	background: white;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border: 1px solid red;
+}
+
+.mec button a{
+	color: white;
+	text-decoration: none;
+}
+
+.btn-mec{
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	color: black;
+}
+
+.btn-mec h6{
+	font-weight: bold;
+}
+
+.background-mec{
+	background: white;
+	margin: 15px 0 15px 0;
+	padding: 1px 15px 2px 15px ;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border: 1px solid red;
+}
+
+.mec-download{
+	text-align: center;
+}
+/*--------------------------------*/
+
+/*BIOTECNOLOGIA*/
+.biotec h4, h6{
+	font-weight: bold;
+	margin: 0;
+}
+
+.biotec h5{
+	background: white;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border: 1px solid green;
+}
+
+.biotec button a{
+	color: white;
+	text-decoration: none;
+}
+
+.btn-biotec{
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	color: black;
+}
+
+.btn-biotec h6{
+	font-weight: bold;
+}
+
+.background-biotec{
+	background: white;
+	margin: 15px 0 15px 0;
+	padding: 1px 15px 2px 15px ;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border: 1px solid green;
+}
+
+.biotec-download, .biotec-acesse{
+	text-align: center;
+}
+
+.biotec-acesse h4{
+	font-weight: bold;
+}
+
+.biotec-acesse a{
+	text-decoration: none;
+	color: white;
+}
+
+.biotec-download button a{
+	color: white;
+}
+
+.biotec-download h4{
+	font-weight: bold;
+}
+
+
+/*EXPERIÊNCIAS*/
+.exp-bold{
+	font-weight: bold;
+	color: white;
+}
+/*--------------------------------*/
+
+/*CONTATOS*/
+.i-contato{
+	font-size: 60px;
+}
+
+.contato h4{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+.contato h6{
+	font-weight: bold;
+}
+
+.contato a{
+	text-decoration: none;
+	color: black;
+}
+
+.contato a:hover{
+	color: orangered;
+}
+/*--------------------------------*/
+
+
+/*Rodapé*/
+footer{
+	padding: 50px 0 20px 0;
+}
+
+footer h4{
+	color: black;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color: #9bf0e1;
+}
+
+footer i{
+	margin-bottom: 30px;
+}
+/*--------------------------------*/
+
+
+
+
+
